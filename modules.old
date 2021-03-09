@@ -1,0 +1,5 @@
+##############################################################################################
+### MODULES
+module "data_vpc_prod" {
+  source = "git::http://andre.frederico:eU6HGxR_8bxyka9xoJNv@172.16.1.131/aws/core/vpc/vpc_prod/modulos_data/modulo_data_vpc_prod.git"
+}
